@@ -1,0 +1,134 @@
+.about {
+    padding-top: 120px;
+    height: 100vh;
+}
+
+.inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poster {
+    /* padding-left: 40px; */
+    width: 40%;
+}
+
+.posterImg {
+    max-width: 100%;
+    max-height: 600px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.posterImg:hover {
+    box-shadow: 0px 0px 39px rgba(95, 170, 255, 0.25);
+}
+
+.credits {
+    padding-left: 40px;
+    width: 60%;
+    color: #fff;
+}
+
+
+.title {
+    font-weight: 100;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.synopsis {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.statistic {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+.rating__count{
+    font-weight: 200;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.mainInfo {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.genres {
+    margin-bottom: 30px;
+}
+
+.geners__title {
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.geners__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gener {
+    display: flex;
+    align-items: baseline;
+    margin-right: 20px;
+}
+
+.gener:hover .gener__circle {
+    background-color: #299DED;
+}
+
+.gener__circle {
+    width: 13px;
+    height: 13px;
+    background-color: #606365;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: .4s;
+}
+
+.gener__name {
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: none;
+}
+
+.overview {}
+
+.overview__title {
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.overview__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media(max-width: 800px){
+    .poster {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .credits {
+        padding-left: 0;
+        width: 100%;
+    }
+}

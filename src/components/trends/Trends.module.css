@@ -1,0 +1,21 @@
+.trends{
+    padding-top: 120px;
+}
+
+.films{
+  
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -25px;
+}
+.current{
+    display: inline-block;
+    background-color: #303539;
+    border-radius: 50px;
+    padding: 5px 57px;
+    font-size: 25px;
+    color: #299DED;
+}

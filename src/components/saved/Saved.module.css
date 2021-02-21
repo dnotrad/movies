@@ -1,0 +1,16 @@
+.saved{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    font-size: 18px;
+    font-weight: 300;
+}
+.info p{
+    text-align: center;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+

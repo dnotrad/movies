@@ -1,0 +1,46 @@
+.header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1E21;
+    padding: 25px 0;
+    border-radius: 0 0 20px 20px;
+}
+
+.nav__link {
+    margin-right: 55px;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+.nav__link.active .icon {
+    fill: #299DED;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    fill: #606365;
+    transition: .4s all;
+}
+
+.icon:hover {
+    fill: #299DED;
+}
+
+@media(max-width: 500px) {
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+    .header{
+        padding: 15px 0;
+    }
+}

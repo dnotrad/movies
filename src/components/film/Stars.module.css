@@ -1,0 +1,42 @@
+.stars{
+    position: relative;
+    height: 20px;
+    width: 120px;
+}
+.stars__grey{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 120px;
+    z-index: 5;
+}
+.star__grey{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.star__grey:last-of-type{
+    margin-right: 0;
+}
+.stars__gold{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 120px;
+    display: flex;
+    z-index: 5; 
+}
+.starImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 20px;
+    height: 20px;
+}
+.starImgBlack{
+    width: 20px;
+    height: 20px;
+}
